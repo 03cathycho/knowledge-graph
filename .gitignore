@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Generated progress files (kept locally to allow resume but not committed)
+kg_progress.json
+
+# Sensitive
+.env
+.env.local
+*.key
+secrets/
+api_keys.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Node (if you add a JS build step)
+node_modules/
+dist/
+build/
+
+# Large files that shouldn't be in git (handled separately if needed)
+*.pkl
+math_cache.pkl
